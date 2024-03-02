@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bgg-py"
+version = "0.1.0"
+description = "Simple boardgamegeek API client"
+authors = ["Ryan Leland <ryanleland@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "bgg"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+httpx = "^0.27.0"
+xmltodict = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
